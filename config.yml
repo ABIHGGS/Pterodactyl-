@@ -1,0 +1,18 @@
+debug: false
+uuid: d790fddc-a18b-4aba-ae95-71df6980632d
+token_id: C1onuBpWgp43118N
+token: mCoCAaJWifpdnsPQAztft98Y17EsDwHsgtSdO69fa7cwNkp4HacffQfktAkQTGp1
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/node.serverpublicxazyuxintamvanmapan.storeid.my.id/fullchain.pem
+    key: /etc/letsencrypt/live/node.serverpublicxazyuxintamvanmapan.storeid.my.id/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://stunning-spork-4jrg954jxxrqcwgw-80.app.github.dev'
